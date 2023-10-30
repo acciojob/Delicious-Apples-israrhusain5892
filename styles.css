@@ -1,1 +1,107 @@
 /* your code here */
+.product__photo{
+	width:320px;
+	height:500px;
+	box-shadow:0px 0px 8px gray;
+	margin-left:-190px;
+	z-index:4;
+	background-color:white;
+}
+body{
+	background-color:#10E37F;
+}
+.product{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:auto;
+	margin-top:100px;
+	background:white;
+	width:600px;
+	height:600px;
+	gap:24px;
+}
+.photo-main>img{
+	width:300px;
+	margin-left:-50px;
+}
+.photo-main{
+	height:370px;
+	width:320px;
+	
+	background:#A7E523;
+}
+
+.controls{
+	display:flex;
+	justify-content:space-around;
+	gap:220px;
+	
+}
+
+.controls i{
+	margin:20px;
+	color:white;
+}
+
+.photo-album ul{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-right:20px;
+	margin-top:25px;
+}
+
+.photo-album ul li{
+	border:1px solid lightgray;
+	text-decoration:none;
+	list-style:none;
+	margin-inline:2px;
+	
+}
+
+.title>h1{
+	font-weight:600px;
+	font-size:28px;
+	line-height:1px;
+}
+.title>span{
+	font-size:14px;
+	opacity:0.7;
+}
+
+.price{
+	margin-top:30px;
+/* 	font-size:30px; */
+	color:red;
+}
+
+.price>span{
+/* 	position:absolute; */
+	font-weight:600px;
+	font-size:60px;
+	
+}
+
+.variant ul{
+	display:flex;
+}
+
+.variant ul li{
+	list-style:none;
+}
+
+.variant ul li:hover{
+	border:1px solid lightgray;
+}
+
+button{
+	margin-top:30px;
+	width:170px;
+	height:60px;
+	background-color:#FE3F40;
+	color:white;
+	border-radius:5px;
+	border:none;
+	box-shadow:0px 0px 8px black;
+}
